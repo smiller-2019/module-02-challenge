@@ -1,0 +1,83 @@
+.container {
+  /*1140px also a standard subtract 32 px from both sides*/
+  max-width: 120rem;
+  /* auto gives the same value to the left and right side */
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.h1-header {
+  font-size: 6rem;
+  text-align: center;
+  color: #333;
+  background-color: #67e8f9;
+  height: 10rem;
+  padding: 3rem;
+}
+
+.h2-sub {
+  font-size: 4rem;
+  text-align: center;
+  background-color: #67e8f9;
+  padding: 2rem;
+  position: absolute;
+  top: 30rem;
+  left: 35rem;
+  width: 45rem;
+}
+
+.h2-about {
+  font-size: 4rem;
+  background-color: #bae6fd;
+  padding: 2rem;
+}
+
+.article-details {
+  display: grid;
+}
+
+.profile-img {
+  /* access image directly from css file */
+  background-image: url("../images/wood-panels.jpg");
+  /* background image covers the entire element */
+  background-size: cover;
+  background-position: center;
+  height: 40rem;
+}
+
+.section-profile {
+  position: relative;
+}
+
+ul {
+  text-align: center;
+  color: #67e8f9;
+  background-color: #333;
+  height: 8rem;
+  padding: 5rem;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+li a {
+  text-decoration: none;
+  border-bottom: 0.5rem solid;
+  /* increase underline of anchor tag */
+  padding: 1rem;
+  margin: 0 -1rem;
+}
+
+li a:hover,
+li a:active {
+  color: #fff;
+}
+
+a:link,
+a:visited {
+  color: #67e8f9;
+}
