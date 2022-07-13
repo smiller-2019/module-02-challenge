@@ -6,34 +6,192 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/root.css" />
+    <link rel="stylesheet" href="./assets/css/queries.css" />
     <title>My Profile</title>
   </head>
   <body>
+    <!-- header section displaying main title and navigation -->
+    <header class="main-header">
+      <h1 class="h1-header">Susan Miller</h1>
+
+
+      <nav class="main-nav">
+        <ul class="nav-ul">
+          <li><a href="#About">About Me</a></li>
+          <li><a href="#Work">Work</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#Resume">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+     
+  
+<!-- profile section for the page header showing background image and profile name -->
+    <section class="section-profile">
+      <div class="section-profile-container">
+        <div
+          class="section-profile-img"
+          role="img"
+          aria-label="background image of wood frence in blue"
+        ></div>
+        <div class="profile-heading">Profile</div>
+      </div>
+
+      <section class="header-profile-img">
+        <img class="profile-img" src ="./assets/images/avatar-profile-img.png"/>
+      </section>
+    </section>
+
+    <!-- This is the main container section of the page -->
     <main class="container">
-      <!-- header section displaying main title and navigation -->
-      <header class="main-header">
-        <h1 class="h1-header">Susan Miller</h1>
-
-        <nav class="main-nav">
-          <ul class="ul-nav">
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Resume</a></li>
-          </ul>
-        </nav>
-      </header>
-
       <article class="article-details">
-        <section class="section-profile">
-          <div class="profile-img" role="img" aria-label="testing"></div>
-          <h2 class="h2-sub">Profile</h2>
-        </section>
+        <!-- The article work will become the grid for the container -->
+        <div class="article-work">
+          <!-- This is the about me section title with the span applied for the Me part of the text -->
+          <section class="section-about" id="About">
+            <p class="about-heading">
+              About <span class="section-about-me">Me</span>
+            </p>
+          </section>
+<!-- This is the about me text area -->
+          <section class="section-about-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+              ab! Eos praesentium impedit, explicabo quasi excepturi adipisci
+              iure eveniet natus temporibus? Explicabo mollitia officiis
+              distinctio in, quia quod voluptatem alias. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Aliquid, in obcaecati,
+              repudiandae natus nisi, distinctio amet quo animi impedit iusto
+              beatae architecto fugit adipisci porro vero iure ipsam enim
+              maxime. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Dolorum neque, ex ipsa sit iure obcaecati vero soluta illo libero
+              veritatis cupiditate repellat excepturi optio? Dicta minima fugit
+              vero aliquam rem. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit.
+              
+              <p>Nobis, ab! Eos praesentium impedit, explicabo
+              quasi excepturi adipisci iure eveniet natus temporibus? Explicabo
+              mollitia officiis distinctio in, quia quod voluptatem alias. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Aliquid, in
+              obcaecati, repudiandae natus nisi, distinctio amet quo animi
+              impedit iusto beatae architecto fugit adipisci porro vero iure
+              ipsam enim maxime. Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. </p>
+              
+              <p>Dolorum neque, ex ipsa sit iure obcaecati vero
+              soluta illo libero veritatis cupiditate repellat excepturi optio?
+              Dicta minima fugit vero aliquam rem. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Nobis, ab! Eos praesentium impedit,
+              explicabo quasi excepturi adipisci iure eveniet natus temporibus?
+              Explicabo mollitia officiis distinctio in, quia quod voluptatem
+              alias. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Aliquid, in obcaecati, repudiandae natus nisi, distinctio amet quo
+              animi impedit iusto beatae architecto fugit adipisci porro vero
+              iure ipsam enim maxime. Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Dolorum neque, ex ipsa sit iure obcaecati vero
+              soluta illo libero veritatis cupiditate repellat excepturi optio?
+              Dicta minima fugit vero aliquam rem.</p></p>
+          </section>
 
-        <section class="section-about">
-          <h2 class="h2-about">About Me</h2>
-        </section>
+            <!-- This is the work section title and background image along with the hyper ling and title of the work for the recent section -->
+          <section class="section-work" id="Work">
+            <p class="about-heading">Work</p>
+          </section>
+
+          <section class="section-recent">
+            <a href="https://www.open.ac.uk/">
+            <div
+              class="section-recent-img"
+              role="img"
+              aria-label="background image of amazon river"
+            ></div>
+
+
+            <div class="section-recent-main-text">
+              Payroll <span>Backend</span>
+            </div>
+          </a>
+
+          </section>
+
+                      <!-- This is the work section title and background image along with the hyper ling and title of the work for the first previous work section -->
+
+          <section class="section-previous-first">
+            <a href="https://www.birmingham.ac.uk/">
+            <div
+              class="section-previous-first-img"
+              role="img"
+              aria-label="background image of bubble"
+            ></div>
+            <div class="section-previous-first-text">
+              Stock control <span>Full stack</span>
+            </div>
+            </a>
+          </section>
+          <!-- This is the work section title and background image  with the hyper ling and title of the work for the second previous work section -->
+          <section class="section-previous-second">
+            <a href="https://www.aston.ac.uk/">
+            <div
+              class="section-previous-second-img"
+              role="img"
+              aria-label="background image of feathers"
+            ></div>
+            <div class="section-previous-second-text">
+              Festival Booking System <span>Full stack</span>
+            </div>
+            </a>
+          </section>
+           <!-- This is the work section title and background image  with the hyper ling and title of the work for the third previous work section -->
+
+          <section class="section-previous-third">
+            <a href="https://www.bcu.ac.uk/">
+            <div
+              class="section-previous-third-img"
+              role="img"
+              aria-label="background image of country"
+            ></div>
+            <div class="section-previous-third-text">
+              Biographies <span>HTML/CSS</span>
+            </div>
+            </a>
+          </section>
+
+       <!-- This is the work section title and background image  with the hyper ling and title of the work for the fourth previous work section -->
+
+          <section class="section-previous-fourth">
+            <a href="https://www.le.ac.uk/">
+            <div
+              class="section-previous-fourth-img"
+              role="img"
+              aria-label="background image of country"
+            ></div>
+            <div class="section-previous-fourth-text">
+              Ticketing system <span>Javascript/HTML/CSS</span>
+            </div>
+            </a>
+          </section>
+        
+          <!-- This is the contact section at the bottom of the page showing the contact list with hyperlinks and contact me title -->
+            <section class="section-footer-contact" id="Contact">
+              <p class="about-heading">
+                Contact <span class="section-about-me">Me</span>
+              </p>
+            </section>
+            <!-- This is the list of hyperlinks for the contact Me section -->
+         
+            <footer class="footer">
+              <ul class="section-contact-ul">
+                <li class="section-contact-li"><a href="#">0983 937 6373</a></li>
+                <li class="section-contact-li">
+                  <a href="#">www.mywebwork@mywebsite.com</a>
+                </li>
+                <li class="section-contact-li"><a href="#">Twitter</a></li>
+                <li class="section-contact-li" id="Resume"><a href="#">LinkdIn</a></li>
+              </ul>
+            </footer>
+
+        </div>
       </article>
     </main>
+    
   </body>
 </html>

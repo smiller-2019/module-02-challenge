@@ -1,0 +1,71 @@
+/*************************************/
+/* BELOW 1790px(Desktops) breakpoint divide by 16px browser standard*/
+/*************************************/
+@media (max-width: 115em) {
+  /* make use of responsive units to reduce the size of everything */
+  /*9px / 16px == 56.25%  */
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/*************************************/
+/* BELOW 1608px(Desktops) breakpoint divide by 16px browser standard*/
+/*************************************/
+@media (max-width: 110em) {
+  /* move h1-header and resize on page */
+  .h1-header {
+    text-align: left;
+    padding: 0rem;
+    font-size: 5rem;
+    width: 30rem;
+    height: 5rem;
+  }
+
+  /*  move profile heading in */
+  .profile-heading {
+    align-items: left;
+    left: 120rem;
+  }
+
+  .header-profile-img img {
+    max-width: 80%;
+    height: 80%;
+  }
+}
+
+/*************************************/
+/* BELOW 1521px(Desktops) breakpoint divide by 16px browser standard*/
+/*************************************/
+@media (max-width: 95em) {
+  /* move h1-header and resize on page */
+  .h1-header {
+    text-align: left;
+    padding: 0rem;
+    width: 20rem;
+    height: 5rem;
+    font-size: 3rem;
+  }
+
+  /*  move profile heading in */
+  .profile-heading {
+    align-items: left;
+    left: 100rem;
+  }
+
+  .header-profile-img img {
+    max-width: 60%;
+    height: 60%;
+  }
+
+  .footer {
+    grid-column: 2;
+    grid-row: 5/5;
+    display: flex;
+  }
+
+  .section-contact-li a {
+    margin: 0 1rem;
+    color: #333;
+  }
+}
