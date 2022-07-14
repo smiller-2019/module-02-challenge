@@ -80,15 +80,11 @@ p {
   margin-bottom: 5rem;
 }
 
-/* displays the avatar picture */
-.header-profile-img {
-  position: absolute;
-}
-
 /* profile container holds the name 'profile'. relative to allow name 'profile' to display on top of background image */
 .section-profile-container {
   display: flex;
   height: 40rem;
+  width: 100%vw;
   position: relative;
 }
 
@@ -123,6 +119,11 @@ p {
   grid-template-rows: repeat(5, 1fr);
   column-gap: 2rem;
   row-gap: 2rem;
+}
+
+/* displays the avatar picture */
+.header-profile-img {
+  position: absolute;
 }
 
 /* section about me with padding and justification right fincluding border rom about me text */
@@ -233,7 +234,6 @@ p {
 }
 
 /* This is the second previous work section which places it in a precise cell in the grid */
-
 .section-previous-second {
   grid-column: 3 / end;
   grid-row: 3/4;
@@ -379,7 +379,7 @@ p {
   margin-top: 7rem;
 }
 
-/* styling for contact section in footer */
+/* styling for contact section in footer  title*/
 .section-footer-contact {
   border-right: 1rem solid #1b5e81e8;
   margin-right: 4rem;
