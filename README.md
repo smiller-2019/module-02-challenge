@@ -20,3 +20,5 @@ The following have been applied to the code:
 6. Comments have been included in the HTML and CSS files.
 
 ![Screenshot of webpage](https://github.com/smiller-2019/module-02-challenge/blob/main/assets/images/professional-profile-website-image.png)
+
+![Screenshot of mobile responsive webpage](https://github.com/smiller-2019/module-02-challenge/blob/main/assets/images/professional-profile-website-image.png)
