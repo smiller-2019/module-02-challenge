@@ -21,4 +21,4 @@ The following have been applied to the code:
 
 ![Screenshot of webpage](https://github.com/smiller-2019/module-02-challenge/blob/main/assets/images/professional-profile-website-image.png)
 
-![Screenshot of mobile responsive webpage](https://github.com/smiller-2019/module-02-challenge/blob/main/assets/images/professional-profile-website-image.png)
+![Screenshot of mobile responsive webpage](https://github.com/smiller-2019/module-02-challenge/blob/main/assets/images/professional-mobile-profile-website-image.png)
