@@ -1,7 +1,7 @@
 /*************************************/
 /* BELOW 1790px(Desktops) breakpoint divide by 16px browser standard*/
 /*************************************/
-@media (max-width: 115em) {
+@media screen and (max-width: 115em) {
   /* make use of responsive units to reduce the size of everything */
   /*9px / 16px == 56.25%  */
   html {
@@ -12,16 +12,7 @@
 /*************************************/
 /* BELOW 1608px(Desktops) breakpoint divide by 16px browser standard*/
 /*************************************/
-@media (max-width: 110em) {
-  /* move h1-header and resize on page */
-  /* .h1-header {
-    text-align: left;
-    padding: 0rem;
-    font-size: 5rem;
-    width: 30rem;
-    height: 5rem;
-  } */
-
+@media screen and (max-width: 110em) {
   /* main header with name, profile name and navigation */
   .main-header {
     gap: 60rem;
@@ -42,15 +33,8 @@
 /*************************************/
 /* BELOW 1521px(Desktops) breakpoint divide by 16px browser standard*/
 /*************************************/
-@media (max-width: 95em) {
+@media screen and (max-width: 95em) {
   /* move h1-header and resize on page */
-  /* .h1-header {
-    text-align: left;
-    padding: 0rem;
-    width: 20rem;
-    height: 5rem;
-    font-size: 3rem;
-  } */
 
   /* main header with name, profile name and navigation */
   .main-header {
@@ -156,7 +140,7 @@
 /*************************************/
 /* BELOW 1450px(Desktops) breakpoint divide by 16px browser standard*/
 /*************************************/
-@media (max-width: 92em) {
+@media screen and (max-width: 92em) {
   /* main header with name, profile name and navigation */
   .main-header {
     gap: 10rem;
@@ -171,13 +155,14 @@
   .section-contact-ul {
     display: flex;
     flex-direction: column;
-    text-align:center;
+    text-align: center;
+  }
 }
 
 /*************************************/
 /* BELOW 1176px(Desktops) breakpoint divide by 16px browser standard*/
 /*************************************/
-@media (max-width: 72em) {
+@media screen and (max-width: 72em) {
   /* main header with name, profile name and navigation */
   .main-header {
     gap: 5rem;
@@ -203,16 +188,13 @@
 /*************************************/
 /* BELOW 955px(Desktops) breakpoint divide by 16px browser standard*/
 /*************************************/
-@media (max-width: 60em) {
-  /* h1 header with name at the top of the page left. */
+/* h1 header with name at the top of the page left. */
+
+@media screen and (max-width: 60em) {
   .h1-header {
     font-size: 4rem;
     height: 10rem;
   }
-
-  /* .main-header {
-    font-size: 1rem;
-  } */
 
   .nav-ul {
     display: grid;
