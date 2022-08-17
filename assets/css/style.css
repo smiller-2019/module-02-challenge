@@ -27,8 +27,8 @@ p {
   background-color: #67e8f9;
   height: 8%;
   padding: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .main-nav {
   width: 78vw;
@@ -102,9 +102,13 @@ p {
   background-color: rgb(103, 232, 249);
   padding: 2rem;
   width: 30rem;
-  /* margin-top: -5%; */
-  margin-right: 5rem;
+  margin-right: 5%;
   top: 43rem;
+}
+
+.profile-img {
+  position: absolute;
+  top: 21rem;
 }
 
 /* name 'profile' displays on this background image */
@@ -132,7 +136,7 @@ p {
 .section-about {
   /* display: flex; */
   border-right: 1rem solid #1b5e81e8;
-  margin-right: 4rem;
+  margin-right: 4%;
 }
 
 /* This is the style about me section haeading which is also used for the work and contact headings */
@@ -162,7 +166,7 @@ p {
   border-right: 1rem solid #1b5e81e8;
   /* spans 4 rows */
   grid-row: 2 / 5;
-  margin-right: 4rem;
+  margin-right: 4%;
 }
 
 /* This is the recent work which is the first image which is the largest. It places the image and text in a specific cell in the grid*/
@@ -309,7 +313,7 @@ p {
   /* set padding to zero as it is being inherited from the ul styling above. */
   font-size: 3rem;
   margin: 0 auto;
-  margin-top: 5rem;
+  margin-top: 5%;
 }
 
 /* This is the display for the lists of the unordered list for the contact section*/
@@ -351,6 +355,6 @@ p {
 /* styling for contact section in footer  title*/
 .section-footer-contact {
   border-right: 1rem solid #1b5e81e8;
-  margin-right: 5rem;
+  margin-right: 5%;
   height: 20rem;
 }

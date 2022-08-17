@@ -21,6 +21,10 @@
     flex-wrap: nowrap;
   }
 
+  .profile-img {
+    position: absolute;
+    top: 32rem;
+  }
   .section-about {
     font-size: 3rem;
   }
@@ -75,19 +79,22 @@
 /* BELOW 700px(small tablets) breakpoint divide by 16px browser standard*/
 /*************************************/
 @media screen and (max-width: 45em) {
-  /* .section-about-me {
-    font-size: 1.5rem;
-  }
-
-  .sub-heading {
-    font-size: 1.5rem;
-  } */
   /* main header with name, profile name and navigation */
   .top-nav {
     flex-wrap: nowrap;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+
+  .profile-img {
+    position: static;
+    top: 0rem;
+  }
+
+  /* profile header containing name 'profile' made absolute to display on top of background image */
+  .profile-heading {
+    margin-right: 15%;
   }
 
   .section-about-text {
@@ -102,7 +109,7 @@
     border-right: 1rem solid #1b5e81e8;
     /* spans 4 rows */
     grid-row: 2 / 7;
-    margin-right: 4rem;
+    margin-right: 4%;
   }
 
   .article-work {
@@ -179,16 +186,13 @@
     top: 55%;
   }
   .footer {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
-    /* grid-column: 2 / -1;
-  grid-row: 5/5;
-  margin-top: 7rem; */
   }
 
   /* styling for contact section in footer  title*/
   .section-footer-contact {
-    margin-right: 5.5rem;
+    margin-right: 0%;
   }
 
   /* this is the contact details styling for the unordered list element */
@@ -197,16 +201,14 @@
     flex-direction: column;
     background-color: #cffafe;
     /* set padding to zero as it is being inherited from the ul styling above. */
-    font-size: 1.5rem;
-    /* margin: 0 auto; */
-    margin-top: 0rem;
-    line-height: 2rem; */
+    font-size: 1.2rem;
+    margin-top: 0%;
+    line-height: 2rem;
   }
 
   /* This is the display for the lists of the unordered list for the contact section*/
   .section-contact-li {
     list-style-type: none;
-    /* line-height: 3rem; */
     padding: 1rem;
   }
 }
