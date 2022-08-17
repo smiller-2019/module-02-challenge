@@ -18,11 +18,11 @@
 
 
     <nav class="main-nav">
-      <ul class="nav-ul">
-        <li><a href="#About">About Me</a></li>
-        <li><a href="#Work">Work</a></li>
-        <li><a href="#Contact">Contact</a></li>
-        <li><a href="#Resume">Resume</a></li>
+      <ul class="top-nav">
+        <li class="top-nav-list"><a href="#About">About Me</a></li>
+        <li class="top-nav-list"><a href="#Work">Work</a></li>
+        <li class="top-nav-list"><a href="#Contact">Contact</a></li>
+        <li class="top-nav-list"><a href="#Resume">Resume</a></li>
       </ul>
     </nav>
   </header>
@@ -32,7 +32,9 @@
   <section class="section-profile">
     <div class="section-profile-container">
       <div class="section-profile-img" role="img" aria-label="background image of wood frence in blue"></div>
+      <div class="profile-head">
       <div class="profile-heading">Profile</div>
+    </div>
     </div>
 
     <section class="header-profile-img">
@@ -47,7 +49,7 @@
       <div class="article-work">
         <!-- This is the about me section title with the span applied for the Me part of the text -->
         <section class="section-about" id="About">
-          <p class="about-heading">
+          <p class="sub-heading">
             About <span class="section-about-me">Me</span>
           </p>
         </section>
@@ -93,14 +95,14 @@
 
         <!-- This is the work section title and background image along with the hyper ling and title of the work for the recent section -->
         <section class="section-work" id="Work">
-          <p class="about-heading">Work</p>
+          <p class="sub-heading">Work</p>
         </section>
 
         <section class="section-recent">
           <a href="https://www.open.ac.uk/">
-            <div class="section-recent-img" role="img" aria-label="background image of amazon river"></div>
+            <!-- <div class="section-recent-img" role="img" aria-label="background image of amazon river"></div> -->
 
-
+<img class="section-recent-img" src="./assets/images/waterfall.jpg" alt="image of a waterfall"/>
             <div class="section-recent-main-text">
               Payroll <span>Backend</span>
             </div>
@@ -112,7 +114,8 @@
 
         <section class="section-previous-first">
           <a href="https://www.birmingham.ac.uk/">
-            <div class="section-previous-first-img" role="img" aria-label="background image of bubble"></div>
+            <!-- <div class="section-previous-first-img" role="img" aria-label="background image of bubble"></div> -->
+            <img class="section-recent-img" src="./assets/images/sea.jpg" alt="image of the sea"/>
             <div class="section-previous-first-text">
               Stock control <span>Full stack</span>
             </div>
@@ -121,7 +124,8 @@
         <!-- This is the work section title and background image  with the hyper ling and title of the work for the second previous work section -->
         <section class="section-previous-second">
           <a href="https://www.aston.ac.uk/">
-            <div class="section-previous-second-img" role="img" aria-label="background image of feathers"></div>
+            <!-- <div class="section-previous-second-img" role="img" aria-label="background image of feathers"></div> -->
+            <img class="section-recent-img" src="./assets/images/river.jpg" alt="image of a river"/>
             <div class="section-previous-second-text">
               Festival Booking System <span>Full stack</span>
             </div>
@@ -131,7 +135,8 @@
 
         <section class="section-previous-third">
           <a href="https://www.bcu.ac.uk/">
-            <div class="section-previous-third-img" role="img" aria-label="background image of country"></div>
+            <!-- <div class="section-previous-third-img" role="img" aria-label="background image of country"></div> -->
+            <img class="section-recent-img" src="./assets/images/forest.jpg" alt="image of a forest"/>
             <div class="section-previous-third-text">
               Biographies <span>HTML/CSS</span>
             </div>
@@ -142,35 +147,38 @@
 
         <section class="section-previous-fourth">
           <a href="https://www.le.ac.uk/">
-            <div class="section-previous-fourth-img" role="img" aria-label="background image of country"></div>
+            <!-- <div class="section-previous-fourth-img" role="img" aria-label="background image of country"></div> -->
+            <img class="section-recent-img" src="./assets/images/mountain.jpg" alt="image of a mountain"/>
             <div class="section-previous-fourth-text">
-              Ticketing system <span>Javascript/HTML/CSS</span>
+              Ticketing system <span>Javascript<span>
+              <span>HTML/CSS</span>
             </div>
           </a>
         </section>
-
-        <!-- This is the contact section at the bottom of the page showing the contact list with hyperlinks and contact me title -->
-        <section class="section-footer-contact" id="Contact">
-          <p class="about-heading">
-            Contact <span class="section-about-me">Me</span>
-          </p>
-        </section>
-        <!-- This is the list of hyperlinks for the contact Me section -->
-
-        <footer class="footer">
-          <ul class="section-contact-ul">
-            <li class="section-contact-li"><a href="#">0983 937 6373</a></li>
-            <li class="section-contact-li">
-              <a href="#">www.mywebwork@mywebsite.com</a>
-            </li>
-            <li class="section-contact-li"><a href="#">Twitter</a></li>
-            <li class="section-contact-li" id="Resume"><a href="#">LinkdIn</a></li>
-          </ul>
-        </footer>
-
       </div>
     </article>
   </main>
+  
+
+
+  <footer class="footer">
+      <!-- This is the list of hyperlinks for the contact Me section -->
+  <section class="section-footer-contact" id="Contact">
+    <p class="sub-heading">
+      Contact <span class="section-about-me">Me</span>
+    </p>
+  </section>
+     <!-- This is the contact section at the bottom of the page showing the contact list with hyperlinks and contact me title -->
+  
+    <ul class="section-contact-ul">
+      <li class="section-contact-li"><a href="#">0983 937 6373</a></li>
+      <li class="section-contact-li">
+        <a href="#">www.mywebwork@mywebsite.com</a>
+      </li>
+      <li class="section-contact-li"><a href="#">Twitter</a></li>
+      <li class="section-contact-li" id="Resume"><a href="#">LinkdIn</a></li>
+    </ul>
+  </footer>
 
 </body>
 
