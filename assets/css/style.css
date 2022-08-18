@@ -108,7 +108,7 @@ p {
 
 .profile-img {
   position: absolute;
-  top: 21rem;
+  top: 20rem;
 }
 
 /* name 'profile' displays on this background image */
@@ -137,6 +137,7 @@ p {
   /* display: flex; */
   border-right: 1rem solid #1b5e81e8;
   margin-right: 4%;
+  margin-top: 4%;
 }
 
 /* This is the style about me section haeading which is also used for the work and contact headings */
